@@ -3,11 +3,13 @@
 
 int main()
 {
-float a=10;
+    float a=10;
 
-{
-printf("%f\n",a);
-}
 
-return 0;
+    {
+        printf("%f\n",a);
+        printf("%.f\n",a);
+    }
+
+    return 0;
 }
